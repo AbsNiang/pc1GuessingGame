@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
         Random random = new Random();
-        int generatedNumber = random.nextInt(11);
+        int generatedNumber = random.nextInt(10-1)+1;
         System.out.println("I am thinking of a number between 1 and 10, type a guess.");
         Scanner input = new Scanner(System.in);
         int guess = input.nextInt();
